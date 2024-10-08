@@ -15,7 +15,7 @@ programa
 	escreva("\n \nSOMA \n")
 	escreva("A soma de " + a + " + " + b + " é: " + (a+b))
 
-	escreva("\n \nSUBTRAÇÃO \n ")
+	escreva("\n \nSUBTRAÇÃO \n")
 	escreva("A subtração de " + a + " - " + b + " é: " + (a-b))
 
 	escreva("\n \nMULTIPLICAÇÃO \n")
@@ -26,7 +26,6 @@ programa
 
 	escreva("\n \nMÓDULO \n")
 	escreva("O módulo de " + a + " % " + b + " é: " + (a%b))
-
 	
 	}
 }
@@ -35,7 +34,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 265; 
+ * @POSICAO-CURSOR = 595; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
