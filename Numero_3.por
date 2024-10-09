@@ -3,31 +3,24 @@ programa
 	
 	funcao inicio()
 	{
-	inteiro a = 0, b = 0
-	
+		cadeia nome
+		inteiro idade
+		cadeia corFav
 
-	escreva("Digite o primeiro número: ")
-	leia(a)
-	escreva("Digite o segundo número: ")
-	leia(b)
+		escreva("Digite seu nome: ")
+		leia(nome)
 
+		escreva("Digite sua idade: ")
+		leia(idade)
 
-	escreva("\n \nSOMA \n")
-	escreva("A soma de " + a + " + " + b + " é: " + (a+b))
+		escreva("Digite sua cor favorita: ")
+		leia(corFav)
 
-	escreva("\n \nSUBTRAÇÃO \n ")
-	escreva("A subtração de " + a + " - " + b + " é: " + (a-b))
-
-	escreva("\n \nMULTIPLICAÇÃO \n")
-	escreva("A multiplicação de " + a + " x " + b + " é: " + (a*b))
-
-	escreva("\n \nDIVISÃO \n")
-	escreva("A soma de " + a + " / " + b + " é: " + (a/b))
-
-	escreva("\n \nMÓDULO \n")
-	escreva("O módulo de " + a + " % " + b + " é: " + (a%b))
-
-	
+		escreva("Seu nome: " + nome + "\n")
+		escreva("Sua idade: " + idade + "\n")
+		escreva("Sua cor favorita: " + corFav + "\n")
+		
+		
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -35,7 +28,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 265; 
+ * @POSICAO-CURSOR = 360; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
